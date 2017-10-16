@@ -1,7 +1,11 @@
 mouth these papillae are small backwardfacing hooks that contain keratin which
 <<<<<<< HEAD
+<<<<<<< HEAD
 what are
 =======
 what
 have
 >>>>>>> C4
+=======
+B2 change
+>>>>>>> B2

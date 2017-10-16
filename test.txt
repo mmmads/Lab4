@@ -5,9 +5,14 @@ The cat's tongue has sharp spines, or papillae, useful for retaining and ripping
 
 The cat's oral structures provide for a variety of vocalizations used for communication, including meowing, purring, hissing, growling, squeaking, chirping, clicking, and grunting.
 <<<<<<< HEAD
+<<<<<<< HEAD
 change
 =======
 
 cat
 dog
 >>>>>>> C4
+=======
+
+Btwo change
+>>>>>>> B2

@@ -1,8 +1,10 @@
 this is a test!
 I changed something here!
-<<<<<<< HEAD
+
 i have an apple!
-=======
+
 I changed something second!
 2.4chang
->>>>>>> C4
+
+B2 change
+
