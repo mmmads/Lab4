@@ -3,14 +3,12 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
 
-import java.awt.Toolkit;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.io.File;
 import java.util.*;
 
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
@@ -30,7 +28,7 @@ public class DisplayShortestPath {
 			ENode node = V.next;
 			while(node != null)
 			{
-				str += (V.word).toString();
+				str += V.word.toString();
 				str += " -> ";
 				str += ((list.get(node.pos)).word).toString();
 				if( EdgeCheck(V.word, list.get(node.pos).word) )

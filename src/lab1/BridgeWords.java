@@ -13,7 +13,7 @@ public class BridgeWords
 	ArrayList<String> result = new ArrayList<String>();
 	public BridgeWords(String word1, String word2, List<VNode> List)
 	{
-		int pre = Index(word1, List), next = Index(word2, List);
+		final int pre = Index(word1, List), next = Index(word2, List);
 		if(pre == -1 || next == -1)  
 		{
 			word3 = "No word1 or word2 in the graph!";
@@ -34,7 +34,7 @@ public class BridgeWords
 				}
 				edge = edge.next;
 			}
-			if(result.size() == 0) word3 = "No bridge words from word1 to word2!";
+			if(result.isEmpty()) word3 = "No bridge words from word1 to word2!";
 			else word3 = "The bridge words from word1 to word2 are: ";
 		}
 	}
@@ -43,7 +43,8 @@ public class BridgeWords
 		for(int i = 0; i < List.size(); i++)
 		{
 			if((List.get(i).word).equals(word))
-				return i;
+				{return i;
+				}
 		}
 		return -1;
 	}

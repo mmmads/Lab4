@@ -87,7 +87,7 @@ class AdList {
 	
 	public boolean judgeForAdd(String word1, String word2){
 		int pos_word1 = locate(word1);
-		int pos_word2 = locate(word2);
+		int pos_word2 = locate(word2); 
 		ENode e = AdList.get(pos_word1).next;
 		while(e != null){
 			if(e.pos == pos_word2)
